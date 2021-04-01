@@ -1,0 +1,15 @@
+[ats-header]
+
+author -> NX-DOMAIN\lpoma
+created -> 2021-04-01 at 17:36:42
+
+[ats-variables]
+
+
+[ats-actions]
+
+channel-start -> newChannel -> chrome
+goto-url -> http://henix.fr
+click -> span -> a [id = a-1617291509456428]
+check-count -> 1 -> input
+channel-close -> newChannel

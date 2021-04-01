@@ -1,0 +1,13 @@
+[ats-header]
+
+author -> NX-DOMAIN\lpoma
+created -> 2021-04-01 at 17:44:32
+
+[ats-variables]
+
+
+[ats-actions]
+
+channel-start -> newChannel_1 -> chrome
+goto-url -> $env(CUF_TC_url_demo)
+channel-close -> newChannel_1

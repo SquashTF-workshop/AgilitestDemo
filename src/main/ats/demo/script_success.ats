@@ -1,0 +1,17 @@
+[ats-header]
+
+author -> NX-DOMAIN\lpoma
+created -> 2021-04-01 at 17:13:42
+
+[ats-variables]
+
+
+[ats-actions]
+
+channel-start -> newChannel -> chrome
+goto-url -> https://www.squashtest.com/fr
+click -> span [@index = 1, class = _3fUtn]
+over -> a [class = _1_kc0, data-testid = linkElement, href = https://www.squashtest.com/try-squash-jira-cloud]
+click -> a [class = _1_kc0, data-testid = linkElement, href = https://www.squashtest.com/try-squash-jira-cloud]
+keyboard -> Henix -> input [id = input_comp-kf6iuuq1]
+channel-close -> newChannel
