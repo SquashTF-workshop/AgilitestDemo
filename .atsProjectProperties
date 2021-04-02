@@ -6,11 +6,12 @@
   <useMaven>false</useMaven>
   <autoUpdateAts>true</autoUpdateAts>
   <useProjectDomain>false</useProjectDomain>
-  <uuid>6DBCC595-9525-2810-26EE-8E21FBE4E9AB</uuid>
+  <uuid>7B071BB2-4D5E-8883-839F-926BAEEF7CEB</uuid>
   <groups>
     <group>default</group>
   </groups>
   <environment>
     <property>url_demo</property>
+    <property>CUF_TC_url_demo</property>
   </environment>
 </atsProject>

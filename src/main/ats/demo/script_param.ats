@@ -9,5 +9,8 @@ created -> 2021-04-01 at 17:44:32
 [ats-actions]
 
 channel-start -> newChannel_1 -> chrome
-goto-url -> $env(CUF_TC_url_demo)
+goto-url -> google.com
+click -> button [id = zV9nZe]
+keyboard -> $env(CUF_TC_url_demo)$key(ENTER) -> input [class = gLFyf gsfi]
+over -> input [class = gLFyf gsfi]
 channel-close -> newChannel_1
